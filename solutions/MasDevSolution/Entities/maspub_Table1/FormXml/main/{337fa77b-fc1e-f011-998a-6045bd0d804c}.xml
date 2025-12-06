@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{337fa77b-fc1e-f011-998a-6045bd0d804c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{88acc011-d28e-416b-85eb-aa824cbf17c8}" IsUserDefined="1" labelid="{c83bd4c0-ae44-4f8a-aecd-eee2a60cb756}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ae4a9a7a-a4f6-4a9b-9894-b43c53da6625}" labelid="{27536e8a-c4c0-43f0-8bc6-d8ebfbbb3a79}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d52f9fb6-7afd-416d-914d-4ae486708e02}" labelid="{bb6535dc-9e95-4cec-8de1-a985d972c0f1}">
+                        <labels>
+                          <label description="Mineral" languagecode="1033" />
+                        </labels>
+                        <control id="maspub_mineral" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="maspub_mineral" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5898c3a8-100b-4c54-8487-db61c24c82ca}" colspan="1" rowspan="1" visible="false" labelid="{002e9c86-7efe-4d85-8e5a-cca3e12bd1c3}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c1ec9a1-553c-2a72-02bc-9123376dc217}" showlabel="false" locklevel="0" labelid="{37f4d79a-bd80-4a80-802e-5bd7d381e7f0}">
+                        <labels>
+                          <label description="Mine" languagecode="1033" />
+                        </labels>
+                        <control id="maspub_mine" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="maspub_mine" disabled="false" uniqueid="{a03d61dd-a31e-6acd-a022-c46775205de8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{8f1843b5-9660-4146-967e-d28cd56a632f}" colspan="1" rowspan="1" labelid="{8f443649-2d2c-41fa-8125-4ba12a4d512c}" visible="false">
+                        <labels>
+                          <label description="New canvas app" languagecode="1033" />
+                        </labels>
+                        <control id="cc_1745257729626" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{01200ade-98ce-408b-b31a-5b1eb2355913}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="5ba9d571-85c0-4f2d-9dc3-7df62da3f65e" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Documents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="48544c4f-8c21-4e1e-863a-9737ee1555d4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Documents2" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{212d11eb-3148-4f7a-ae76-905a74c5129c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Mineral" languagecode="1033" />
+                        </labels>
+                        <control id="maspub_mineral" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="maspub_mineral" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{995f0229-ebca-4e8b-ba97-5d2b41acc402}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Mine" languagecode="1033" />
+                        </labels>
+                        <control id="maspub_mine" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="maspub_mine" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d7ebde56-a953-473f-9218-72e2863416bc}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{94d8c2ea-9a98-492e-9fe1-46fb5b846129}" showlabel="false" labelid="{def1d611-dc5b-4352-a0bf-29fd456af889}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2dea1c56-c1f4-40cd-8750-8d52a339767a}" showlabel="false" labelid="{87672425-2a55-426d-825a-59702a1aaf37}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a99bff4c-1735-483a-a486-4dff0c01ce2e}" showlabel="false" labelid="{fa47176c-4dfd-4def-8980-d288317441f0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{40e82b93-cb5a-4656-b36c-1079c34f352b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{84360ff0-c474-4f59-8ea4-773a4f68a984}" showlabel="false" labelid="{2e3f7f42-9ed4-46c1-b230-a9a254bff1d1}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4f48d079-199b-48e9-8c91-a18f1de68507}" showlabel="false" labelid="{f235551c-53bb-445d-942e-60f90775185a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{63d2aa9a-86d5-41c0-b5ba-4a194973f98f}" showlabel="false" labelid="{8be1a1cc-c3e2-4351-8466-ddfdbc279666}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{01200ade-98ce-408b-b31a-5b1eb2355913}">
+          <customControl formFactor="1" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <entityName type="SingleLine.Text">maspub_mineral</entityName>
+              <appName type="SingleLine.Text" static="true">maspub_mineralresourcescanvasapp3_93b6d</appName>
+              <appId type="SingleLine.Text" static="true">8ce4e6cc-9420-40a0-91c8-709303d7e91</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <entityName type="SingleLine.Text">maspub_mineral</entityName>
+              <appName type="SingleLine.Text" static="true">maspub_mineralresourcescanvasapp3_93b6d</appName>
+              <appId type="SingleLine.Text" static="true">8ce4e6cc-9420-40a0-91c8-709303d7e91</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <entityName type="SingleLine.Text">maspub_mineral</entityName>
+              <appName type="SingleLine.Text" static="true">maspub_mineralresourcescanvasapp3_93b6d</appName>
+              <appId type="SingleLine.Text" static="true">8ce4e6cc-9420-40a0-91c8-709303d7e91</appId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="MasDocsForm" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
