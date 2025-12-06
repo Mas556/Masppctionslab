@@ -1,0 +1,22 @@
+name: Release action
+# Call the reusable workflow release-solution-with-inputs.yml
+# Release your solution to prod when you create a new release.
+
+on:
+  release:
+      types: [created]        
+permissions:
+  contents: write
+jobs:
+  Release-solution-MasDevSolution:
+    uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
+    with:
+      #You can specify the solution name here
+      solution_name: MasDevSolution
+      #Update your values here
+      BUILD_ENVIRONMENT_URL: https://orgbf174748.crm11.dynamics.com
+      PRODUCTION_ENVIRONMENT_URL: https://org4f74f763.crm11.dynamics.com
+      CLIENT_ID: ba80acd6-19e9-418d-8232-a3baf568bf22
+      TENANT_ID: c6874728-71e6-41fe-a9e1-2e8c36776ad8      
+    secrets:
+      envSecret: ${{ secrets.PowerPlatformSPN }}
